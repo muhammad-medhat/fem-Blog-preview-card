@@ -1,0 +1,120 @@
+:root {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: figtree-xb;
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: figtree;
+  src: url("./assets/fonts/static/Figtree-Medium.ttf");
+}
+@font-face {
+  font-family: figtree-md;
+  src: url("./assets/fonts/static/Figtree-Medium.ttf");
+  font-weight: 500;
+}
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+.card {
+  /*****************************/
+  /* Card Mobile */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  /* position: absolute;
+  width: 327px;
+  height: 493px;
+  left: 24px;
+  top: 156px; */
+
+  background: #ffffff;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px 0px #000000;
+  border-radius: 20px;
+
+  /*****************************/
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  gap: 0.7rem;
+
+  border: solid 1px #000;
+  /* border-radius: 10px; */
+  /* box-shadow: 5px 7px #000; */
+  width: 375px;
+  padding: 1.5rem;
+}
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.meta {
+  font-family: figtree;
+}
+.date {
+  font-family: figtree-md;
+  font-weight: 500;
+  /****************-----*/
+  /****************-----*/
+}
+h2 {
+  /**---------------------*/
+  /**---------------------*/
+
+  font-family: figtree-xb;
+  font-style: normal;
+  letter-spacing: 0;
+}
+.tag {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  gap: 10px;
+
+  width: 73px;
+  height: 26px;
+
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.author {
+  font-family: figtree;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.bg-yellow {
+  background-color: #f4d04e;
+}
