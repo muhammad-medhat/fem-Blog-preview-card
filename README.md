@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog preview card
+# Blog Preview Card
 
-![Design preview for the Blog preview card coding challenge](./preview.jpg)
+A responsive blog preview card built from the Frontend Mentor challenge.
 
 ## Welcome! 👋
 
