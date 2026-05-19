@@ -50,7 +50,7 @@ body {
   gap: 0.1rem;
 
   border: solid 1px #000;
-  width: 375px;
+  max-width: 375px;
   padding: 1.5rem;
 }
 .card-img {
@@ -93,6 +93,10 @@ h2 {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.tag:hover {
+  background-color: #efbe0b;
+  cursor: pointer;
 }
 .author {
   font-family: figtree;
